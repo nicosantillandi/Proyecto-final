@@ -1,0 +1,149 @@
+*{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/* NAVBAR */
+
+body{
+    height: 145vh;
+    position: relative;
+    background-position: center center;
+}
+
+header{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5%;
+    height: 80px;
+    background-color: #025098;
+    font-family: sans-serif;
+}
+
+.logo{
+    height: 50px;
+
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item{
+    margin: 0;
+    padding: 20px;
+    font-size: 12pt;
+    cursor: pointer;
+    color:#fff;
+    text-decoration: none;
+}
+
+.item:hover{
+    color: #FFCC00;
+}
+
+#Menu{
+    display: none;
+}
+
+.menu-icono{
+    width: 25px;
+
+}
+
+label{
+    cursor: pointer;
+    display: none;
+}
+
+.btn{
+    padding: 8px 64px;
+    border-radius: 20px;
+    text-decoration: none;
+    cursor: pointer;
+    background-color: #FFCC00;
+    color: black;
+}
+
+.btn:hover{
+    background-color:#daae00;
+}
+
+@media(max-width:800px){
+    .menu{
+        padding: 30px;
+        margin: 0;
+    }
+    label{
+        display: initial;
+    }
+    .menu{
+        position: absolute;
+        top: 100%;
+        right: 0;
+        left: 0;
+        background-color:#035caf;
+        display: none;
+    }
+
+    .btn{
+        width: 50px;
+    }
+
+    #Menu:checked ~ .menu{
+        display: initial;
+    }
+}
+
+/* CARROUSEL */
+.carousel{
+    position: relative;
+    background-color: grey;
+    margin-top: 80px;
+    height: 32rem;
+    width: cover;
+    color: white;  
+}
+
+.container{
+    position: absolute;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-right: 40px;
+    padding-left: 300px;
+    padding-top: 100px;
+}
+
+button{
+    width: 220px;
+    height: 46px;
+    color: #fff;
+    background: #CC3366;
+    margin: 0px;
+    font-family: 'Inter', sans-serif;    ; 
+    font-size: 14pt;
+    border: none;
+    border-radius: 30px;
+    
+}
+
+
+.frase{
+    color: #CC3366;
+    font-size: 20pt;
+    font-family: 'Geomanist';
+    width: 200px;
+    text-align: center;
+}
+
