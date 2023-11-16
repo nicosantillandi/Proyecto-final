@@ -4,13 +4,17 @@
     box-sizing: border-box;
 }
 
+body{
+    background-image: url(./imagenes/FONDO.png);
+}
+
 .form-register{
-    width: 400px;
-    background-color: #025098;
+    width: 450px;
+    background-color: #3366FF;
     padding: 30px;
     margin: auto;
     margin-top: 100px;
-    border-radius: 8px;
+    border-radius: 25px;
     font-family:'Inter', sans-serif; ;
     font-size: 14px;
     color: #fff;
@@ -25,17 +29,16 @@ div{
     justify-content: center;
 }
 
-h3{
+h1{
     font-size: 22px;
     margin: 16px;
-    font-weight: 1;
     text-align: center;
 }
 
 .controls{
     width: 100%;
-    background-color: #003b73;
-    border: #003b73;
+    background-color: #5f85f9;
+    border:#daae00;
     border-radius: 4px;
     padding: 15px;
     margin-bottom:18px ;
@@ -44,25 +47,29 @@ h3{
     color: #fff; 
 }
 
-.boton{
-    width: 100%;
-    height: 44px;
+#boton{
+    display: flex;
+    justify-content: center;
+    padding: 12px 25px 12px 25px;
     border: none;
+    text-decoration: none;
     border-radius: 25px;
-    background-color: #FFCC00;
-    margin: 18px 0 ;
+    background-color: #e6bc13;
+    color: #1e1e1e;
     cursor: pointer;
     font-size: 16px;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.5);
+    margin: 18px 0 ;
 }
 
-.boton:hover{
-    background-color:#daae00 ;
+#boton:hover{
+    background-color:#fcd848;
 
 }
 
 
 :focus{
-    outline: 1px solid #FFCC00;
+    outline: 2px solid #FFCC00;
 }
 
 a{
@@ -75,8 +82,18 @@ p{
 }
 
 .form-register a:hover{
-    color: #FFCC00;
+    color: #e6bc13;
     text-decoration: underline;
 }
 
+::placeholder{
+    color: #fff;
+}
 
+.warnings{
+    font-size: 14px;
+    text-align: center;
+    margin-top: 12px;
+    color: rgb(255, 213, 98);
+    font-weight: 3;
+}

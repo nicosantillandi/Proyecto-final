@@ -1,0 +1,133 @@
+body{
+    margin:0;
+    padding:0 ;   
+    width: 1600px;
+    height: 4000px;
+}
+
+@font-face {
+    font-family:'Geomanist';
+    src: url( /crucijuegos/Geomanist-Black);
+    font-style: bold;
+}
+
+
+header{
+    background: #025098;
+    width: 100%;
+    height: 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+}
+.logo img{
+    height: 40px;
+    padding-left: 20px;
+}
+nav a{
+    padding-right: 160px;
+
+}
+
+nav a:hover{
+    color: #FFCC00;
+
+}
+
+a{
+    font-family: 'Inter', sans-serif;    ;
+    color: #fff;
+    text-decoration: none;
+}
+
+.boxmain{
+    background-image: url(./imagenes/Portada\ cruci2.png);
+    background-size: cover;
+    height: 1025px;
+
+}
+
+.Frase{
+    color: #CC3366;
+    font-size: 40pt;
+    font-family: 'Geomanist';
+    margin:0;
+    text-align: center;
+    width: 30%;
+    padding: 50px;
+    padding-left: 50px;
+}
+
+button{
+    width: 220px;
+    height: 46px;
+    color: #fff;
+    background: #CC3366;
+    margin: 0px;
+    font-family: 'Inter', sans-serif;    ; 
+    font-size: 14pt;
+    border: none;
+    border-radius: 30px;
+}
+
+button:hover{
+    color: #CC3366;
+    background-color: #FFCC00;
+}
+
+section{
+    display: flex;
+}
+
+.boxyellow{
+    background-color: #FFCC00;
+    height: 1025px;
+    width: 65%;
+}
+
+h2{
+    color:#025098;
+    font-size: 35pt;
+    font-family: 'Geomanist';
+    text-align: center;
+}
+
+p{
+    text-align: center;
+    margin: 80px;
+    font-family: 'Inter', sans-serif;    ;
+    color: black;
+    font-size: 20pt;
+}
+
+.boxred{
+    background-color: #CC3366;
+    height: 1025px;
+    width: 65%;
+}
+
+.boxgreen{
+    background-color: #99CC33;
+    height: 1025px;
+    width: 65%;
+}
+.footerbox{
+    border: 0;
+    padding: 80px 50px;
+    background-color: #CC3366;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+li{
+    color: #fff;
+    font-family:'Inter', sans-serif;
+    font-size: 10pt;
+}
+
+.footerbox img{
+    height: 120px;
+    padding-right: 10px;
+}

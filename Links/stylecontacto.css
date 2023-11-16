@@ -4,9 +4,13 @@
     box-sizing: border-box;
 }
 
+body{
+    background-image: url(./imagenes/FONDO.png);
+}
+
 .form-register{
     width: 450px;
-    background-color: #0066CC;
+    background-color:#3366FF;
     padding: 30px;
     margin: auto;
     margin-top: 100px;
@@ -16,21 +20,21 @@
     color: #fff;
 }
 
-h3{
+h1{
     font-size: 22px;
     margin-bottom: 16px;
 }
 
 .controls{
     width: 100%;
-    background-color: #2e93f9;
+    background-color: #5f85f9;
     border: #0066CC;
     border-radius: 4px;
     padding: 15px;
     margin-bottom:18px ;
     font-family: sans-serif;
     font-size: 14px; 
-    color: #fff; 
+    color: #ffffff; 
 }
 
 .boton{
@@ -38,15 +42,20 @@ h3{
     height: 44px;
     border: none;
     border-radius: 25px;
-    background-color: #FFCC00;
+    background-color: #e6bc13;
     margin: 18px 0 ;
     cursor: pointer;
     font-size: 16px;
 }
 
 .boton:hover{
-    background-color:#daae00;
+    background-color:#fcd848;
 }
+
+:focus{
+    outline: 2px solid #FFCC00;
+}
+
 
 a{
     text-decoration: none;
@@ -64,7 +73,7 @@ p{
 
 textarea{
     width: 100%;
-    background-color: #2e93f9;
+    background-color: #5f85f9;
     border: #0066CC;
     border-radius: 4px;
     color: #fff;
@@ -74,9 +83,42 @@ textarea{
 }
 
 :focus{
-    outline: 1px solid #FFCC00;
+    outline: 2px solid #FFCC00;
 }
 
+::placeholder{
+    color: #fff;
+}
 
+.warnings{
+    font-size: 14px;
+    text-align: center;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    color: rgb(255, 213, 98);
+    font-weight: 3;
+}
 
+#boton2{
+    display: flex;
+    justify-content: center;
+    padding: 12px 25px 12px 25px;
+    border: none;
+    text-decoration: none;
+    border-radius: 25px;
+    background-color: #3366FF;
+    color: #d5d5d5;
+    cursor: pointer;
+    font-size: 16px;
+    box-shadow: 0px 1px 10px rgba(2, 0, 51, 0.5);
 
+}
+
+#boton2:hover{
+    background-color: #4674fc;
+    color: #fff;
+}
+
+#button{
+    display: none;
+}
